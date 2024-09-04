@@ -108,6 +108,7 @@ body{
     height: 8rem;
     margin: 0.75rem 0px 1.75rem 0;
     padding: 1rem 1.25rem;
+    overflow: scroll;
 }
 
 .box-p1{
@@ -277,9 +278,9 @@ h2{
 
 .lyrics-icons{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    width: 90%;
 }
 .lyrics-icons i{
     opacity: 0.7;
@@ -343,7 +344,7 @@ h2{
     justify-content: space-between;
     width: 100%;
     padding: 1rem;
-    width: 55%;
+    width: 80%;
     
 }
 
@@ -387,4 +388,8 @@ h2{
 }
 .wallet i:hover{
     opacity: 1;
+}
+
+*::-webkit-scrollbar{
+    display: none;
 }
